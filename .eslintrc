@@ -1,0 +1,9 @@
+{
+  "extends": ["eslint-config-egg", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": "off",
+    "valid-jsdoc": "off"
+  }
+}
